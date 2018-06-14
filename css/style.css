@@ -66,7 +66,7 @@ h3 {
   background-image: url("../images/section2.jpg");
   color: #333;
   margin: 10px;
-  margin-bottom: 0px;
+  margin-bottom: -10px;
 }
 .section-2 {
   padding: 10px;
@@ -89,8 +89,8 @@ h3 {
 .project_list {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
-  /* justify-content: space-between; */
+  justify-content: space-around;
+  justify-content: space-between;
   padding-bottom: 5px;
 }
 .projectItem_box {
